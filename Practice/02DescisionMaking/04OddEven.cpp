@@ -1,0 +1,15 @@
+// Check whether the given number is odd or even.
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int number;
+    cout << "Enter number: ";
+    if (number % 2 == 0)
+        cout << "Even";
+    else
+        cout << "Odd";
+    return 0;
+}
